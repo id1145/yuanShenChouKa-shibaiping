@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ch-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+    <title>祈愿</title>
+  </head>
+
+  <body>
+    <!-- 背景 -->
+    <img
+      src="./canZao.png"
+      alt=""
+      style="z-index: -10; width: 100%; height: 100%; position: absolute"
+    />
+
+    <video
+      id="beiJing"
+      loop
+      muted
+      src="./background.mp4"
+      style="
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+        display: none;
+        z-index: -100;
+        overflow: hidden;
+      "
+    ></video>
+
+    <!-- 大盒子 -->
+    <div class="pageMain">
+      <!-- 小盒子上 -->
+      <div class="pageUp">
+        <div class="xuanZe">a</div>
+        <div class="xuanZe">d</div>
+        <div class="xuanZe">d</div>
+      </div>
+
+      <!-- 小盒子中 -->
+      <div class="pageCenter">
+        <div>a</div>
+        <div>s</div>
+        <div>d</div>
+      </div>
+
+      <!-- 小盒子下 -->
+      <div class="pageDown">
+        <div>a</div>
+        <div>s</div>
+        <div>d</div>
+      </div>
+    </div>
+  </body>
+</html>

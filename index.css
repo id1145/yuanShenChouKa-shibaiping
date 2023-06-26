@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background: url(./background.mp4);
+}
+
+/* 全局div样式 */
+body div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* 分割线-------------- */
+/* 主盒子 */
+.pageMain {
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-between;
+}
+/* 分割线-------------- */
+
+/* 小盒子上 */
+.pageUp {
+  flex-direction: row;
+  width: 100vw;
+  height: 12vh;
+}
+.xuanZe {
+  margin: 0 2vw 0 2vw;
+  background-color: aqua;
+  width: 65px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+/* 小盒子中 */
+.pageCenter {
+  margin: 0;
+}
+
+/* 小盒子下 */
+.pageDown {
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+/* 分割线-------------- */
